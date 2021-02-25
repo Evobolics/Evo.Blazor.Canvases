@@ -16,6 +16,8 @@ I found it is not only useful to document and keep track of the final solution, 
 
 - [Resize HTML5 Canvas to Fit Window](https://stackoverflow.com/questions/1664785/resize-html5-canvas-to-fit-window/63642064#63642064) - Good article referencing some the articles above.  Lots of good opinions.
 
+- [Various Blazor Extensions with Javascript Dependencies](https://github.com/BlazorExtensions/) and the [Blazor Canvas Extension](https://github.com/BlazorExtensions/Canvas) - Was very useful when building early prototypes.  Then discovered I needed to fix a few architectural issues and thus the creation of this project.
+
 - [Various Blazor Extensions without Javascript Dependencies](https://github.com/arivera12)
 
 - [Blazor Components build by Microsoft](https://github.com/dotnet/aspnetcore/tree/d97be901b5e0917546a7aba4d52ada7862a058e0/src/Components) - The Web and WebJS folders contain blazor components.  
@@ -25,6 +27,10 @@ I found it is not only useful to document and keep track of the final solution, 
 - [NPM won't install Dev Dependencies](https://stackoverflow.com/questions/34700610/npm-install-wont-install-devdependencies) and [Difference Between --save and --save-dev](https://stackoverflow.com/questions/22891211/what-is-the-difference-between-save-and-save-dev)- Was useful when learning the solution pattern that includes using a *.JS project generate javascript libraries from typescript.
 
 - [Compile Typescript Code with NPM](https://docs.microsoft.com/en-us/visualstudio/javascript/compile-typescript-code-npm?view=vs-2019) - Useful if trying to learn about how webpack and npm work together to build typescript code.
+
+- [Microsoft Blazor Documentation](https://docs.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-5.0) and [Blazor Component Class Libraries](https://docs.microsoft.com/en-us/aspnet/core/blazor/components/class-libraries?view=aspnetcore-5.0&tabs=visual-studio)- Just useful to have handy.
+
+- [MelonJS](https://github.com/melonjs/melonJS/) - Open source game engine that was useful to reference
 
 # Architecture
 
