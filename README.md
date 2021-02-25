@@ -24,6 +24,8 @@ I found it is not only useful to document and keep track of the final solution, 
 
 - [NPM won't install Dev Dependencies](https://stackoverflow.com/questions/34700610/npm-install-wont-install-devdependencies) and [Difference Between --save and --save-dev](https://stackoverflow.com/questions/22891211/what-is-the-difference-between-save-and-save-dev)- Was useful when learning the solution pattern that includes using a *.JS project generate javascript libraries from typescript.
 
+- [Compile Typescript Code with NPM](https://docs.microsoft.com/en-us/visualstudio/javascript/compile-typescript-code-npm?view=vs-2019) - Useful if trying to learn about how webpack and npm work together to build typescript code.
+
 # Architecture
 
 ## Library Size
