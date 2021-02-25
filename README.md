@@ -14,6 +14,8 @@ I found it is not only useful to document and keep track of the final solution, 
 
 - [Resize HTML5 Canvas to Fit Window](https://stackoverflow.com/questions/1664785/resize-html5-canvas-to-fit-window/63642064#63642064) - Good article referencing some the articles above.  Lots of good opinions.
 
+- [Various Blazor Extensions without Javascript Dependencies](https://github.com/arivera12)
+
 # Architecture
 
 ## Library Size
