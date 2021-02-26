@@ -42,6 +42,16 @@ I got asked a I learned over the last year it is important to make projects very
 
 The namespace starts with Evo.  This is important for two reasons. One, when using other packages that use Blazor as a parent namespace, it is hard without using the global namespace to fix namespace conflict compile time errors.  Second, it specifies from which organization this came from, which is again helps limit namespace conflicts.  
 
+## Canvas Resizing Approach
+
+Resizing the canvas appropriately and efficiently is as straight forward as it seems, especially for developers who are not experts in HTML5 graphics.  Thus, it was important to research and identify solutions others were using.  It was found that others struggle with the same issues and that there were a number of good articles discussing how to best resize the canvas as window and controls within the page changed size.  Those articles are listed immediatley below in the references section specific to this topic.  
+
+
+
+### Handling it When Rendering (slow)
+
+### References
+
 # Examples
 
 ## Producing a Grid
