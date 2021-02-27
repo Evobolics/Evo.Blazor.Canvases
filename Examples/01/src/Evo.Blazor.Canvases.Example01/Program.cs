@@ -8,7 +8,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SL.Blazor.Canvases.Example01
+namespace Evo.Blazor.Canvases.Example01
 {
     public class Program
     {
