@@ -44,13 +44,30 @@ The namespace starts with Evo.  This is important for two reasons. One, when usi
 
 ## Canvas Resizing Approach
 
-Resizing the canvas appropriately and efficiently is not as straight forward as it seems, especially for developers who are not experts in HTML5 graphics.  Thus, it was important to research and identify solutions others were using.  It was found that others struggle with the same issues and that there were a number of good articles discussing how to best resize the canvas as window and controls within the page changed size.  Those articles are listed immediatley below in the references section specific to this topic.  
+Resizing the canvas appropriately and efficiently is not as straight forward as it seems, especially for developers who are not experts in HTML5 graphics.  Thus, it was important to research and identify solutions others were using.  It was found that others struggle with the same issues and that there were a number of good articles discussing how to best resize the canvas as window and controls within the page changed size.  Those articles are listed immediatley below in the references section specific to this topic. 
 
 ### Handling it When Rendering (slow)
 
-The first approach attempted was to check to see if the canvas needed to be resized each time it was drawn to the screen.  Upfront it was known this was going to be a slow and inefficient approach, but it worked to some degree -- definalty killed performance.  
+The first approach attempted was to check to see if the canvas needed to be resized each time it was drawn to the screen.  Upfront it was known this was going to be a slow and inefficient approach, as the gut said go css or something like that, but that required research and the goal was to just get the damn thing working first.  Well, it worked to some degree -- definalty killed performance though.  
 
 It was found out while using this appraoch that resizing the canvas clears the canavas - and that this fact surprises many.  To optimize drawing operations, ideally only the porition of the canvas that needs to be redrawn should be; thus resizing needs to be removed from the rendering pipeline unless it is needed.  
+
+### Did some Research, Back to CSS
+
+Frustrated, it was time to do some more research and identity approaches working for others.  Eventually, jackpot was hit: [WebGL Anti-Patterns](https://webglfundamentals.org/webgl/lessons/webgl-anti-patterns.html).   Looking at the first resize example, it shows the canvas is able to be resized by 
+
+The current BECanvas takes in two numbers for its width and height.  Instead, I want the width and height to be set using css by specifying the width should be 100% the view ports and 
+
+```
+canvas {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+```
+Note, 'vw' and 'vh' suffixes stand for viewport width and viewport height, respectively.
+
+The difference between these and using width being set to 100% is that while ```width: 100%``` will make the element fit all the space available, the viewport width has a specific measure, in this case the width of the available screen, including the document margin.  But if the style of the body is set to ```margin: 0;``` using ```100vw``` should behave the same as setting ```width: 100%```.
 
 ### References
 
