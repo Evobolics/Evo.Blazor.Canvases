@@ -77,6 +77,10 @@ The first objective of this project is to figure out how to draw a grid to the H
 
 # Examples
 
+## Resizing 
+
+[Example 01](https://github.com/Evobolics/Evo.Blazor.Canvases/tree/main/Examples/01/src) - Minimal Canvas Resizing without Scrollbars without using overflow: none;
+
 ## Producing a Grid
 
 ## Creating a Tile Map
