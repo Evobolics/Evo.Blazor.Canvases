@@ -44,7 +44,7 @@ The namespace starts with Evo.  This is important for two reasons. One, when usi
 
 ## Canvas Resizing Approach
 
-Resizing the canvas appropriately and efficiently is as straight forward as it seems, especially for developers who are not experts in HTML5 graphics.  Thus, it was important to research and identify solutions others were using.  It was found that others struggle with the same issues and that there were a number of good articles discussing how to best resize the canvas as window and controls within the page changed size.  Those articles are listed immediatley below in the references section specific to this topic.  
+Resizing the canvas appropriately and efficiently is not as straight forward as it seems, especially for developers who are not experts in HTML5 graphics.  Thus, it was important to research and identify solutions others were using.  It was found that others struggle with the same issues and that there were a number of good articles discussing how to best resize the canvas as window and controls within the page changed size.  Those articles are listed immediatley below in the references section specific to this topic.  
 
 ### Handling it When Rendering (slow)
 
@@ -53,6 +53,10 @@ The first approach attempted was to check to see if the canvas needed to be resi
 It was found out while using this appraoch that resizing the canvas clears the canavas - and that this fact surprises many.  To optimize drawing operations, ideally only the porition of the canvas that needs to be redrawn should be; thus resizing needs to be removed from the rendering pipeline unless it is needed.  
 
 ### References
+
+# Objectives
+
+The first objective of this project is to figure out how to draw a grid to the HTML5 canvas and for the grid to resize.  
 
 # Examples
 
