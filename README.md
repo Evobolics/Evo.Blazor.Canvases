@@ -32,6 +32,8 @@ I found it is not only useful to document and keep track of the final solution, 
 
 - [MelonJS](https://github.com/melonjs/melonJS/) - Open source game engine that was useful to reference
 
+- [Html5 canvas crisp lines every time](https://mobtowers.wordpress.com/2013/04/15/html5-canvas-crisp-lines-every-time/)
+
 # Architecture
 
 ## Library Size
