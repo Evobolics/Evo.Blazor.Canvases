@@ -26,6 +26,8 @@ I found it is not only useful to document and keep track of the final solution, 
 
 - [NPM won't install Dev Dependencies](https://stackoverflow.com/questions/34700610/npm-install-wont-install-devdependencies) and [Difference Between --save and --save-dev](https://stackoverflow.com/questions/22891211/what-is-the-difference-between-save-and-save-dev)- Was useful when learning the solution pattern that includes using a *.JS project generate javascript libraries from typescript.
 
+
+
 - [Compile Typescript Code with NPM](https://docs.microsoft.com/en-us/visualstudio/javascript/compile-typescript-code-npm?view=vs-2019) - Useful if trying to learn about how webpack and npm work together to build typescript code.
 
 - [Microsoft Blazor Documentation](https://docs.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-5.0) and [Blazor Component Class Libraries](https://docs.microsoft.com/en-us/aspnet/core/blazor/components/class-libraries?view=aspnetcore-5.0&tabs=visual-studio)- Just useful to have handy.
@@ -33,6 +35,9 @@ I found it is not only useful to document and keep track of the final solution, 
 - [MelonJS](https://github.com/melonjs/melonJS/) - Open source game engine that was useful to reference
 
 - [Html5 canvas crisp lines every time](https://mobtowers.wordpress.com/2013/04/15/html5-canvas-crisp-lines-every-time/)
+
+## JS Interop Speed / Performance
+-[Using IJSUnmarshalledRuntime - Example 1](https://www.meziantou.net/generating-and-downloading-a-file-in-a-blazor-webassembly-application.htm)
 
 # Architecture
 
