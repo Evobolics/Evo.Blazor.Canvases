@@ -47,6 +47,7 @@ I found it is not only useful to document and keep track of the final solution, 
 
 - [Better Way to Add Dynamic Methods](https://stackoverflow.com/questions/584907/javascript-better-way-to-add-dynamic-methods)
 - [Creating Functions Dynamically with Javascript](https://www.thatsoftwaredude.com/content/9025/creating-functions-dynamically-with-javascript)
+- [Javascript 'new Function(...)' syntax](https://javascript.info/new-function)
 
 # Architecture
 
