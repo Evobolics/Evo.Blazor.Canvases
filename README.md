@@ -39,6 +39,10 @@ I found it is not only useful to document and keep track of the final solution, 
 ## JS Interop Speed / Performance
 -[Using IJSUnmarshalledRuntime - Example 1](https://www.meziantou.net/generating-and-downloading-a-file-in-a-blazor-webassembly-application.htm)
 
+## Javascript
+
+- [Better Way to Add Dynamic Methods](https://stackoverflow.com/questions/584907/javascript-better-way-to-add-dynamic-methods)
+
 # Architecture
 
 ## Library Size
