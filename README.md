@@ -37,7 +37,7 @@ I found it is not only useful to document and keep track of the final solution, 
 - [Html5 canvas crisp lines every time](https://mobtowers.wordpress.com/2013/04/15/html5-canvas-crisp-lines-every-time/)
 
 ## JS Interop Speed / Performance
--[Using IJSUnmarshalledRuntime - Example 1](https://www.meziantou.net/generating-and-downloading-a-file-in-a-blazor-webassembly-application.htm)
+- [Using IJSUnmarshalledRuntime - Example 1](https://www.meziantou.net/generating-and-downloading-a-file-in-a-blazor-webassembly-application.htm)
 
 ## Javascript
 
