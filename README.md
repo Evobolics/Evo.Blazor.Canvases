@@ -42,6 +42,7 @@ I found it is not only useful to document and keep track of the final solution, 
 
 ## JS Interop Speed / Performance
 - [Using IJSUnmarshalledRuntime - Example 1](https://www.meziantou.net/generating-and-downloading-a-file-in-a-blazor-webassembly-application.htm)
+- [Canvas Filled Three Ways - JS, WebAssembly, WebGL](https://compile.fi/canvas-filled-three-ways-js-webassembly-and-webgl/)
 
 ## Javascript
 
